@@ -1,0 +1,79 @@
+header {    /*ESTILIZANDO O SITE*/
+    background-color: #dcffc8;
+    /*cor de fundo do cabeçalho*/
+    /*alinhamento de texto*/
+    padding: 25px;
+    /*tamanho/preenchimento do cabeçalho*/
+    display: flex; /*RESPONSAVEL POR DEIXAR OS ITENS FLEX E DEIXAR LADO A LADO*/
+    justify-content: center; /*ORGANIZAÇÃO DOS CONTEÚDOS DENTRO DO CABEÇALHO*/
+    gap: 20px; /*ESPAÇAMENTO ENTRE OS ELEMENTOS (IMG E H1)*/
+    align-items: center; /*ALINHAMENTOS DOS ITENS*/
+}
+
+header h1 { /*ESTÁ ESTILIZANDO O TÍTULO*/
+    color: darkgreen;
+    /*sempre cor da letra*/
+    font-size: 30px;
+    /*sempre tamanhho da letra*/
+    font-family: 'Times New Roman', Times, serif;
+
+    header img { /*ESTÁ ESTILIZANDO A IMAGEM*/
+        width: 70px; /*LARGURA DO LOGO*/
+    }
+}
+
+.joaquim {
+    padding: 200px; /*PREENCHIMENTO DA SESSÃO*/
+    background-color: #b6dea4; /*COR DO FUNDO*/
+    display: flex; /*DEIXANDO FLEX /LADO A LADO*/
+    justify-content: center; /*JUSTIFICANDO CONTEUDO AO CENTRO*/
+    align-items: center; /*ALINHANDO OS ITENS AO CENTRO*/
+    gap: 30px; /*ESPAÇO /RESPIRO ENTRE OS ITENS*/
+
+}
+
+.renato {
+    padding: 20px;
+    background-color: #8fbd7f;
+    text-align: center;
+
+}
+
+.renato i {
+    font-size: 100px;
+    color: black;
+
+}
+
+.joao { 
+    padding: 200px;
+    background-image: url(Imagens/Bar\ 2\ rodapé.jpg); /*RESPONSAVEL PELA IMAGEM AO FUNDO*/
+    background-position: center; /*POSICIONAMENTO DA IMAGEM*/
+    background-size: cover; /*PREENCHIMENTO DA ÁREA DISPONIVEL DA IMAGEM*/
+    background-repeat: no-repeat; /*RETIRANDO A REPETIÇÃO DA IMAGEN NO BACKGROUND*/
+    display: flex; /*TORNANDO OS ITENS FLEX*/
+    justify-content: center; /*ALINHANDO O BOTÃO AO CENTRO*/
+
+}
+
+.joao button {
+    width: 150px; /*LARGURA DO BOTÃO*/
+    padding: 10px; /*PREENCHIMENTO DO BOTÃO*/
+    background-color: darkslategrey; /*COR DE FUNDO COM OPACIDADE*/
+    color: white; /*COR DA LETRA DO BOTÃO*/
+    border-radius: 5px; /*ARREDONDAMENTO DO BOTÃO*/
+
+}
+
+footer {
+    background-color: #233f1d;
+    padding: 30px;
+    color: white;
+    font-size: 20px;
+    text-align: center;
+
+}
+
+footer i {
+    font-size: 40px;
+}
