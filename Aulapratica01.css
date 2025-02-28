@@ -65,6 +65,18 @@ header h1 { /*ESTÁ ESTILIZANDO O TÍTULO*/
 
 }
 
+.costinha {
+    background-color:#71b461;
+    padding: 150px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    gap: 20px;
+    align-items: center;
+}
+
+
 footer {
     background-color: #233f1d;
     padding: 30px;
