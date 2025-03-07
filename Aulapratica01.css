@@ -49,7 +49,8 @@ header h1 { /*ESTÁ ESTILIZANDO O TÍTULO*/
     padding: 200px;
     background-image: url(Imagens/Bar\ 2\ rodapé.jpg); /*RESPONSAVEL PELA IMAGEM AO FUNDO*/
     background-position: center; /*POSICIONAMENTO DA IMAGEM*/
-    background-size: cover; /*PREENCHIMENTO DA ÁREA DISPONIVEL DA IMAGEM*/
+    background-attachment: fixed;
+    background-size: cover; /*PREENCHIMENTO DA ÁREA DISPONIVEL DA IMAGEM*/ 
     background-repeat: no-repeat; /*RETIRANDO A REPETIÇÃO DA IMAGEN NO BACKGROUND*/
     display: flex; /*TORNANDO OS ITENS FLEX*/
     justify-content: center; /*ALINHANDO O BOTÃO AO CENTRO*/
